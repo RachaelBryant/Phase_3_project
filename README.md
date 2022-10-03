@@ -1,13 +1,15 @@
 # SyriaTel Customer Churn Analysis
-![image](https://user-images.githubusercontent.com/65221687/193649060-ba243cd5-6511-4f6b-be6e-70b82e03700d.png)
-<img src="syriaTel.jpg" alt="House" width=400 height=400 />
+<img src="images/syriaTellogo.jpg" alt="House" width=200 height=200 />
 
 ## Overview
 This project analyses aspects of telecommunications to understand what causes people to stop taking the calls/doing business with them. This project uses logistic regression, random forest and k nearest neighbor to understand this binary classification problem.
 
 ## Business Problem
+<img src="images/syriaTel.jpg" alt="House" width=200 height=200 />
+
+
 SyriaTel, a telecommunications company wants to know whether there are any indicators of whether a customer will stop doing business with them. The goal is to predict what measures are causing customers to 'churn' or leave the Telecom company. This could lead to customer retention if understanding what aspects of the customer interaction are causing them to 'churn'.
-![image](https://user-images.githubusercontent.com/65221687/193649205-34ce006a-3b24-4858-b614-44979e6de996.png)
+
 
 
 ## Data Understanding
