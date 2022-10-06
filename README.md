@@ -40,8 +40,9 @@ After instationating Logistic regression, K-Nearest Neighbors, Random Forest, De
 
 Three types of models were used for hypertuning, Logistic Regression, K-Nearest Neighbors, and Random Forest. The Random Forest was still the highest model after hypertuning as it was before hypertuning as depicted in the model comparison figure below. Only the K-Nearest Neighbor model showed improvement from the basemodel however, it can be noted that the basemodel for Random orest at 95% is already high. 
 
-![image](https://user-images.githubusercontent.com/65221687/194054088-ab77496a-3c4f-4735-8ddd-2e1646deb7d0.png)
-![image](https://user-images.githubusercontent.com/65221687/194054665-93a790bc-48e5-4f9b-9a5e-dc851083d6e9.png)
+![image](https://user-images.githubusercontent.com/65221687/194329693-57e40c37-8e1b-47a5-ad43-ce7e8f8c81ed.png)
+![image](https://user-images.githubusercontent.com/65221687/194329724-54fa0c84-a767-4b94-8349-cff96d1687d4.png)
+
 
 
 ## Creating New Data to Best Model
@@ -58,7 +59,7 @@ For the second new data set, the total day minutes was one standard deviation le
 -Whether daily or hourly, how payment is collected will effect churn as well. Changing the method from daily to hourly could discourage churn.
 
 # For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/rabrya0072/Phase-Two-Project-Repository/blob/main/Real%20estate%20Resale%20Needs%20Analysis.ipynb) or [presentation](https://github.com/rabrya0072/Phase-Two-Project-Repository/blob/main/Phase%202%20Project%20presentation%20(1).pdf) in this repository.
+See the full analysis in the [Jupyter Notebook](https://github.com/rabrya0072/Phase_3_project/blob/main/Phase%203%20project.ipynb) or [presentation](https://github.com/rabrya0072/Phase_3_project/blob/main/presentation.pdf.pdf)) in this repository.
 
 For additional info, contact Rachael Bryant at Rachaelbryant@flatironschool.com
 # Repository Structure
@@ -69,7 +70,7 @@ For additional info, contact Rachael Bryant at Rachaelbryant@flatironschool.com
 ├── data
 ├── images
 ├── README.md
-├── Real estate Resale Needs Analysis.pdf
-└── Real estate Resale Needs Analysis.ipynb
+├── presentation.pdf
+└── Phase_3_project.ipynb
 
 
