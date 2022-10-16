@@ -21,7 +21,13 @@ The highest correlated features with churn were total day minutes on the phone a
 ## EDA
 
 In exploring the data it was found that 15% of people are churning away from the company.
+
 ![image](https://user-images.githubusercontent.com/65221687/194056262-8c758279-4a74-4ad2-9868-dea94194aa55.png)
+
+With SMOTE applied to address the imbalance within the data.
+
+![image](https://user-images.githubusercontent.com/65221687/196063564-77ab98b4-a6fa-4928-82ec-3f7829bd8741.png)
+
 
 Feature selection using the highest model Random Forest for the importances:
 ![image](https://user-images.githubusercontent.com/65221687/193648361-1fe0800c-966c-41b1-8e51-4b90d7b0cea7.png)
@@ -40,8 +46,16 @@ After instationating Logistic regression, K-Nearest Neighbors, Random Forest, De
 
 Three types of models were used for hypertuning, Logistic Regression, K-Nearest Neighbors, and Random Forest. The Random Forest was still the highest model after hypertuning as it was before hypertuning as depicted in the model comparison figure below. Only the K-Nearest Neighbor model showed improvement from the basemodel however, it can be noted that the basemodel for Random orest at 95% is already high. 
 
-![image](https://user-images.githubusercontent.com/65221687/194329693-57e40c37-8e1b-47a5-ad43-ce7e8f8c81ed.png)
-![image](https://user-images.githubusercontent.com/65221687/194329724-54fa0c84-a767-4b94-8349-cff96d1687d4.png)
+![image](https://user-images.githubusercontent.com/65221687/196063506-f27bfa0a-00e3-48ff-ae2f-dd3a143e4622.png)
+![image](https://user-images.githubusercontent.com/65221687/196063088-bd17723b-aae3-4fd7-8207-95824cdeb4d3.png)
+
+
+
+Hypertuned SMOTE models
+
+
+![image](https://user-images.githubusercontent.com/65221687/196063064-9fd4ff2d-cea9-443f-9504-9dc83753ead7.png)
+![image](https://user-images.githubusercontent.com/65221687/196063076-37893788-7c64-4d08-9261-77c5b2a37980.png)
 
 
 
