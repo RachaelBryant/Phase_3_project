@@ -44,7 +44,7 @@ After instationating Logistic regression, K-Nearest Neighbors, Random Forest, De
 
 ## Hypertuning
 
-Three types of models were used for hypertuning, Logistic Regression, K-Nearest Neighbors, and Random Forest. The Random Forest was still the highest model after hypertuning as it was before hypertuning as depicted in the model comparison figure below. Only the K-Nearest Neighbor model showed improvement from the basemodel however, it can be noted that the basemodel for Random orest at 95% is already high. 
+Three types of models were used for hypertuning, Logistic Regression, K-Nearest Neighbors, and Random Forest. The Random Forest was still the highest model after hypertuning as it was before hypertuning as depicted in the model comparison figure below. Only the K-Nearest Neighbor model showed improvement from the basemodel however, it can be noted that the basemodel for Random forest at 95% is already high. 
 
 ![image](https://user-images.githubusercontent.com/65221687/196063506-f27bfa0a-00e3-48ff-ae2f-dd3a143e4622.png)
 ![image](https://user-images.githubusercontent.com/65221687/196063088-bd17723b-aae3-4fd7-8207-95824cdeb4d3.png)
@@ -63,10 +63,9 @@ Hypertuned SMOTE models
 In order to test exactly which aspects are effecting churn, new data sets were copied from the original and then altered in regards to the the two most significant features, total day minutes and total day charged.
 
 The total day minutes was decreased by a standard deviation to understand whether lessening the total day minutes on the phone could lessen churn. 
-Utilizing the Random Forest hypertuned model, which had the highest accuracy, on the new data the training set accuracy is 0.9996 and the test set accuracy is 0.9472, therefore the model performed better with this altered data. 
+Utilizing the Random Forest hypertuned model, which had the highest recall, on the new data it produced a training set accuracy of 1 and a test set accuracy of .948, greatly supporting this model and the importance of this feature in terms of churn.
 
-For the second new data set, the total day minutes was one standard deviation less from the original data, the same as the first new dataset, and also the column total day charged was dropped due to potential collinearity because both features had the same amount of correlation to churn. This data set did perform slightly better than the previous with a training set accuracy of 0.9995 and a test set accuracy of 0.949640.
-
+For the second new data set, the total day minutes was one standard deviation less from the original data, the same as the first new dataset, and also the column total day charged was dropped due to potential collinearity because both features had the same amount of correlation to churn. TFor the second manipuated copied data, we kept the one standard deviation lessened total day minutes, but we also dropped total day charge from the data set because of the potential for collinearity. It did not improve the training set with 1 and the test set slightly worsebed to .712.
 
 ## Recommendations
 -Shorter phone calls may lead to higher retention rates.
